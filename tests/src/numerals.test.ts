@@ -64,3 +64,23 @@ test('converts decimal 20 to roman numeral XX', () => {
 test('converts decimal 21 to roman numeral XXI', () => {
     expect(convertNumerals(21)).toBe('XXI');
 });
+
+test('converts decimal 49 to roman numeral XLIX', () => {
+    expect(convertNumerals(49)).toBe('XLIX');
+});
+
+test('converts decimal 50 to roman numeral L', () => {
+    expect(convertNumerals(50)).toBe('L');
+});
+
+test('converts decimal 51 to roman numeral LI', () => {
+    expect(convertNumerals(51)).toBe('LI');
+});
+
+test('converts decimal 55 to roman numeral LV', () => {
+    expect(convertNumerals(55)).toBe('LV');
+});
+
+test('converts decimal 60 to roman numeral LX', () => {
+    expect(convertNumerals(60)).toBe('LX');
+});
