@@ -36,3 +36,19 @@ test('converts decimal 10 to roman numeral X', () => {
 test('converts decimal 11 to roman numeral XI', () => {
     expect(convertNumerals(11)).toBe('XI');
 });
+
+test('converts decimal 14 to roman numeral XIV', () => {
+    expect(convertNumerals(14)).toBe('XIV');
+});
+
+test('converts decimal 15 to roman numeral XV', () => {
+    expect(convertNumerals(15)).toBe('XV');
+});
+
+test('converts decimal 16 to roman numeral XVI', () => {
+    expect(convertNumerals(16)).toBe('XVI');
+});
+
+test('converts decimal 17 to roman numeral XVII', () => {
+    expect(convertNumerals(17)).toBe('XVII');
+});
