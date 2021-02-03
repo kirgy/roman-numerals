@@ -18,3 +18,17 @@ test('converts decimal 2 to roman numeral II', () => {
     
     expect(result).toBe(expected);
 });
+
+test('converts decimal 2 to roman numeral IV', () => {
+    const result: string = convertNumerals(4);
+    const expected: string = 'IV'
+    
+    expect(result).toBe(expected);
+});
+
+test('converts decimal 2 to roman numeral V', () => {
+    const result: string = convertNumerals(5);
+    const expected: string = 'IV'
+    
+    expect(result).toBe(expected);
+});
