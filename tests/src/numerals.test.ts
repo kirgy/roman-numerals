@@ -52,3 +52,15 @@ test('converts decimal 16 to roman numeral XVI', () => {
 test('converts decimal 17 to roman numeral XVII', () => {
     expect(convertNumerals(17)).toBe('XVII');
 });
+
+test('converts decimal 19 to roman numeral XIX', () => {
+    expect(convertNumerals(19)).toBe('XIX');
+});
+
+test('converts decimal 20 to roman numeral XX', () => {
+    expect(convertNumerals(20)).toBe('XX');
+});
+
+test('converts decimal 21 to roman numeral XXI', () => {
+    expect(convertNumerals(21)).toBe('XXI');
+});
