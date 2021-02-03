@@ -1,4 +1,10 @@
 export const convertNumerals = (givenInt: number) : string => {
-    // do something
-    return 'I';
+
+    let romanNumeral: string = '';
+
+    for (let i=0; i<givenInt; i++) {
+        romanNumeral += 'I';
+    }
+
+    return romanNumeral;
 }
