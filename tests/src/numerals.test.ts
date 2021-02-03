@@ -11,3 +11,10 @@ test('converts decimal 1 to roman numeral I', () => {
     
     expect(result).toBe(expected);
 });
+
+test('converts decimal 2 to roman numeral II', () => {
+    const result: string = convertNumerals(2);
+    const expected: string = 'II'
+    
+    expect(result).toBe(expected);
+});
