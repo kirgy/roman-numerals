@@ -6,29 +6,17 @@ import { convertNumerals } from "../../src/numerals"
  */
 
 test('converts decimal 1 to roman numeral I', () => {
-    const result: string = convertNumerals(1);
-    const expected: string = 'I'
-    
-    expect(result).toBe(expected);
+    expect(convertNumerals(1)).toBe('I');
 });
 
 test('converts decimal 2 to roman numeral II', () => {
-    const result: string = convertNumerals(2);
-    const expected: string = 'II'
-    
-    expect(result).toBe(expected);
+    expect(convertNumerals(2)).toBe('II');
 });
 
-test('converts decimal 2 to roman numeral IV', () => {
-    const result: string = convertNumerals(4);
-    const expected: string = 'IV'
-    
-    expect(result).toBe(expected);
+test('converts decimal 4 to roman numeral IV', () => {
+    expect(convertNumerals(4)).toBe('IV');
 });
 
-test('converts decimal 2 to roman numeral V', () => {
-    const result: string = convertNumerals(5);
-    const expected: string = 'IV'
-    
-    expect(result).toBe(expected);
+test('converts decimal 5 to roman numeral V', () => {
+    expect(convertNumerals(5)).toBe('V');
 });
