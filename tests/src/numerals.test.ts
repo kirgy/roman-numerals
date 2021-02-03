@@ -20,3 +20,7 @@ test('converts decimal 4 to roman numeral IV', () => {
 test('converts decimal 5 to roman numeral V', () => {
     expect(convertNumerals(5)).toBe('V');
 });
+
+test('converts decimal 6 to roman numeral VI', () => {
+    expect(convertNumerals(6)).toBe('VI');
+});
