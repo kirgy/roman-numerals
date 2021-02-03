@@ -24,3 +24,15 @@ test('converts decimal 5 to roman numeral V', () => {
 test('converts decimal 6 to roman numeral VI', () => {
     expect(convertNumerals(6)).toBe('VI');
 });
+
+test('converts decimal 9 to roman numeral IX', () => {
+    expect(convertNumerals(9)).toBe('IX');
+});
+
+test('converts decimal 10 to roman numeral X', () => {
+    expect(convertNumerals(10)).toBe('X');
+});
+
+test('converts decimal 11 to roman numeral XI', () => {
+    expect(convertNumerals(11)).toBe('XI');
+});
