@@ -1,7 +1,9 @@
 # Roman Numerals
 
 ## Introduction
-This repo contains a TypeScript project which aims to convert any given decimal integer to Roman Numerals
+This repo contains a TypeScript project which aims to convert any given decimal integer to Roman Numerals.
+
+I took the opportunity to exercise a strict TDD approach to development here - unit test the next behaviour, code a solution for that test, and not think too far ahead. There are pros and cons to this approach in the real-world, but given this is a Kata - I took the opportunity for learning.
 
 ## System requirements
 This repo requires NodeJS & npm.
