@@ -8,7 +8,7 @@ export const convertNumerals = (givenInt: number) : string => {
     let remainValue: number = givenInt;
 
     const intToRom: Array<intRomDef> = [
-        {int:10, rom:'X'}, {int:9, rom:'IX'}, {int:5, rom:'V'}, {int:4, rom:'IV'}, {int:1, rom:'I'}, 
+        {int:50, rom:'L'}, {int:40, rom:'XL'}, {int:10, rom:'X'}, {int:9, rom:'IX'}, {int:5, rom:'V'}, {int:4, rom:'IV'}, {int:1, rom:'I'}, 
     ];
     
     intToRom.forEach(intRom => {
