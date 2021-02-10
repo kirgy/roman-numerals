@@ -1,3 +1,5 @@
+![Tests](https://github.com/kirgy/roman-numerals/workflows/Tests/badge.svg)
+
 # Roman Numerals
 
 ## Introduction
